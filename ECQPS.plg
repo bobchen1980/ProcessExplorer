@@ -1,0 +1,177 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ECQPS - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"..\ExeBin\Release/ECQPS.res" /d "NDEBUG" /d "_AFXDLL" "F:\ECQ-PS V6.0\SrcCode\ECQPS.rc"" 
+Creating temporary file "C:\DOCUME~1\Brygid\LOCALS~1\Temp\RSP152.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "WINNT" /Fp"..\ExeBin\Release/ECQPS.pch" /Yu"stdafx.h" /Fo"..\ExeBin\Release/" /Fd"..\ExeBin\Release/" /FD /c 
+"F:\ECQ-PS V6.0\SrcCode\Controls\MutipleSort\MultiColumnSortListView.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Controls\MutipleSort\SortableHeaderCtrl.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Controls\MutipleSort\SortClass.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Controls\XPMenu\BCMenu.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Controls\XPTools\Draw.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Controls\XPTools\StatusBarXP.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Controls\XPTools\ToolBarXP.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Controls\XPTools\Tools.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Controls\SCBBar\CoolTabCtrl.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Controls\SCBBar\scbarg.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Controls\SCBBar\sizecbar.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Controls\FileFunc\file_ver.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Controls\FileFunc\StringFile.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Controls\SortListCtrl\SortHeaderCtrl.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Controls\SortListCtrl\SortListCtrl.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Controls\XpList\MyTreeCtrl.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Controls\XpList\Popup.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Process\HiddenProcLinkedList.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Process\perfmon.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Process\ProcessFunction.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Process\NtSystemInfo\SystemInfo.cpp"
+"F:\ECQ-PS V6.0\SrcCode\ECQPS.cpp"
+"F:\ECQ-PS V6.0\SrcCode\ECQPSDoc.cpp"
+"F:\ECQ-PS V6.0\SrcCode\ECQPSView.cpp"
+"F:\ECQ-PS V6.0\SrcCode\MainFrm.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Registry\Registry.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Network\Pro2Port.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Dialog\DlgModuleLocked.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Service\EnumNtSrv.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Dialog\FileDialogST.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Controls\FloatControl\CoolControlsManager.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Controls\StaticEdit\ColorStatic.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Controls\StaticEdit\editex.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Controls\SysTray\SystemTray.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Controls\TrayBool\TaskbarNotifier.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Controls\TrayBool\XInfoTip.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Brygid\LOCALS~1\Temp\RSP152.tmp" 
+Creating temporary file "C:\DOCUME~1\Brygid\LOCALS~1\Temp\RSP153.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\.." /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "WINNT" /Fp"..\ExeBin\Release/ECQPS.pch" /Yu"stdafx.h" /Fo"..\ExeBin\Release/" /Fd"..\ExeBin\Release/" /FD /c 
+"F:\ECQ-PS V6.0\SrcCode\Controls\XpList\menulistctrl.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Brygid\LOCALS~1\Temp\RSP153.tmp" 
+Creating temporary file "C:\DOCUME~1\Brygid\LOCALS~1\Temp\RSP154.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I ".." /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "WINNT" /Fp"..\ExeBin\Release/ECQPS.pch" /Yu"stdafx.h" /Fo"..\ExeBin\Release/" /Fd"..\ExeBin\Release/" /FD /c 
+"F:\ECQ-PS V6.0\SrcCode\Dialog\dlgregboot.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Dialog\dlgservice.cpp"
+"F:\ECQ-PS V6.0\SrcCode\Dialog\dlgwarning.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Brygid\LOCALS~1\Temp\RSP154.tmp" 
+Creating temporary file "C:\DOCUME~1\Brygid\LOCALS~1\Temp\RSP155.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "WINNT" /Fp"..\ExeBin\Release/ECQPS.pch" /Yc"stdafx.h" /Fo"..\ExeBin\Release/" /Fd"..\ExeBin\Release/" /FD /c 
+"F:\ECQ-PS V6.0\SrcCode\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Brygid\LOCALS~1\Temp\RSP155.tmp" 
+Creating temporary file "C:\DOCUME~1\Brygid\LOCALS~1\Temp\RSP156.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"..\ExeBin/ECQ-PS.pdb" /machine:I386 /out:"..\ExeBin/ECQ-PS.exe" 
+"\ECQ-PS V6.0\ExeBin\Release\MultiColumnSortListView.obj"
+"\ECQ-PS V6.0\ExeBin\Release\SortableHeaderCtrl.obj"
+"\ECQ-PS V6.0\ExeBin\Release\SortClass.obj"
+"\ECQ-PS V6.0\ExeBin\Release\BCMenu.obj"
+"\ECQ-PS V6.0\ExeBin\Release\Draw.obj"
+"\ECQ-PS V6.0\ExeBin\Release\StatusBarXP.obj"
+"\ECQ-PS V6.0\ExeBin\Release\ToolBarXP.obj"
+"\ECQ-PS V6.0\ExeBin\Release\Tools.obj"
+"\ECQ-PS V6.0\ExeBin\Release\CoolTabCtrl.obj"
+"\ECQ-PS V6.0\ExeBin\Release\scbarg.obj"
+"\ECQ-PS V6.0\ExeBin\Release\sizecbar.obj"
+"\ECQ-PS V6.0\ExeBin\Release\file_ver.obj"
+"\ECQ-PS V6.0\ExeBin\Release\StringFile.obj"
+"\ECQ-PS V6.0\ExeBin\Release\SortHeaderCtrl.obj"
+"\ECQ-PS V6.0\ExeBin\Release\SortListCtrl.obj"
+"\ECQ-PS V6.0\ExeBin\Release\menulistctrl.obj"
+"\ECQ-PS V6.0\ExeBin\Release\MyTreeCtrl.obj"
+"\ECQ-PS V6.0\ExeBin\Release\Popup.obj"
+"\ECQ-PS V6.0\ExeBin\Release\HiddenProcLinkedList.obj"
+"\ECQ-PS V6.0\ExeBin\Release\perfmon.obj"
+"\ECQ-PS V6.0\ExeBin\Release\ProcessFunction.obj"
+"\ECQ-PS V6.0\ExeBin\Release\SystemInfo.obj"
+"\ECQ-PS V6.0\ExeBin\Release\ECQPS.obj"
+"\ECQ-PS V6.0\ExeBin\Release\ECQPSDoc.obj"
+"\ECQ-PS V6.0\ExeBin\Release\ECQPSView.obj"
+"\ECQ-PS V6.0\ExeBin\Release\MainFrm.obj"
+"\ECQ-PS V6.0\ExeBin\Release\Registry.obj"
+"\ECQ-PS V6.0\ExeBin\Release\Pro2Port.obj"
+"\ECQ-PS V6.0\ExeBin\Release\DlgModuleLocked.obj"
+"\ECQ-PS V6.0\ExeBin\Release\dlgregboot.obj"
+"\ECQ-PS V6.0\ExeBin\Release\dlgservice.obj"
+"\ECQ-PS V6.0\ExeBin\Release\dlgwarning.obj"
+"\ECQ-PS V6.0\ExeBin\Release\EnumNtSrv.obj"
+"\ECQ-PS V6.0\ExeBin\Release\FileDialogST.obj"
+"\ECQ-PS V6.0\ExeBin\Release\CoolControlsManager.obj"
+"\ECQ-PS V6.0\ExeBin\Release\ColorStatic.obj"
+"\ECQ-PS V6.0\ExeBin\Release\editex.obj"
+"\ECQ-PS V6.0\ExeBin\Release\SystemTray.obj"
+"\ECQ-PS V6.0\ExeBin\Release\TaskbarNotifier.obj"
+"\ECQ-PS V6.0\ExeBin\Release\XInfoTip.obj"
+"\ECQ-PS V6.0\ExeBin\Release\StdAfx.obj"
+"\ECQ-PS V6.0\ExeBin\Release\ECQPS.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\Brygid\LOCALS~1\Temp\RSP156.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MultiColumnSortListView.cpp
+SortableHeaderCtrl.cpp
+SortClass.cpp
+BCMenu.cpp
+Draw.cpp
+StatusBarXP.cpp
+ToolBarXP.cpp
+Tools.cpp
+CoolTabCtrl.cpp
+scbarg.cpp
+sizecbar.cpp
+file_ver.cpp
+StringFile.cpp
+SortHeaderCtrl.cpp
+SortListCtrl.cpp
+MyTreeCtrl.cpp
+Popup.cpp
+HiddenProcLinkedList.cpp
+perfmon.cpp
+ProcessFunction.cpp
+Generating Code...
+Compiling...
+SystemInfo.cpp
+ECQPS.cpp
+ECQPSDoc.cpp
+ECQPSView.cpp
+MainFrm.cpp
+Registry.cpp
+Pro2Port.cpp
+DlgModuleLocked.cpp
+EnumNtSrv.cpp
+FileDialogST.cpp
+CoolControlsManager.cpp
+ColorStatic.cpp
+editex.cpp
+SystemTray.cpp
+TaskbarNotifier.cpp
+XInfoTip.cpp
+Generating Code...
+Compiling...
+menulistctrl.cpp
+Compiling...
+dlgregboot.cpp
+dlgservice.cpp
+dlgwarning.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ECQ-PS.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

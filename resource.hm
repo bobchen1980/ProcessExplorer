@@ -1,0 +1,5 @@
+// Microsoft Developer Studio generated Help ID include file.
+// Used by ECQPS.rc
+//
+#define HIDC_SERVICE_DELETE             0x80aa03ea    // IDD_DLGSERVICE
+#define HIDC_SERVICE_DRIVER             0x80aa03eb    // IDD_DLGSERVICE

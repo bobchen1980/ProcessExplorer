@@ -1,0 +1,581 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ECQPS.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\ECQPS.ico"
+IDR_ECQPSTYPE           ICON    DISCARDABLE     "res\\ECQPSDoc.ico"
+IDI_ICON_UNKNOWN        ICON    DISCARDABLE     "res\\icon1.ico"
+IDI_ICON_SUSPICON       ICON    DISCARDABLE     "res\\warn.ico"
+IDI_ICON_ALLMODULE      ICON    DISCARDABLE     "res\\MS-DOS Batch File.ico"
+IDI_ICON_PROPERT        ICON    DISCARDABLE     "res\\35.ico"
+IDI_ICON_PEINFO         ICON    DISCARDABLE     "res\\pe.ico"
+IDI_ICON_PERFOR         ICON    DISCARDABLE     "res\\perfor.ico"
+IDI_WARING              ICON    DISCARDABLE     "res\\warning.ico"
+IDI_ICON_LOCKED         ICON    DISCARDABLE     "res\\locked.ico"
+IDI_ICON_SAFE           ICON    DISCARDABLE     "res\\safe.ico"
+IDI_ICON_VIRUS          ICON    DISCARDABLE     "res\\virus.ico"
+IDI_ICON_NOTION         ICON    DISCARDABLE     "res\\icon_not.ico"
+IDI_ICON_PROM           ICON    DISCARDABLE     "res\\blue.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar2.bmp"
+IDB_ARROWDOWN           BITMAP  DISCARDABLE     "res\\arrowdow.bmp"
+IDB_ARROWUP             BITMAP  DISCARDABLE     "res\\ArrowUp.bmp"
+IDB_BLANK               BITMAP  DISCARDABLE     "res\\blank.bmp"
+IDB_LIST_LARGE_IMAGES   BITMAP  DISCARDABLE     "res\\images.bmp"
+IDB_LIST_SMALL_IMAGES   BITMAP  DISCARDABLE     "res\\smimages.bmp"
+IDR_MENULBAR            BITMAP  DISCARDABLE     "res\\toolbar1.bmp"
+IDR_POPMENUBAR          BITMAP  DISCARDABLE     "res\\bmp00001.bmp"
+IDB_DLGWARNING_BK       BITMAP  DISCARDABLE     "res\\dglwarning.bmp"
+IDB_DLGWARNING_OK       BITMAP  DISCARDABLE     "res\\dglwarning_cl.bmp"
+IDB_DLGWARNING_CANCEL   BITMAP  DISCARDABLE     "res\\dglwarning_ok.bmp"
+IDB_DLGBOUT_BK          BITMAP  DISCARDABLE     "res\\dlgabout.bmp"
+IDB_DLGBOUT_MAIL        BITMAP  DISCARDABLE     "res\\dlgabout_mail.bmp"
+IDB_DLGBOUT_WEB         BITMAP  DISCARDABLE     "res\\dlgabout_web.bmp"
+IDB_BOLOON_BK           BITMAP  DISCARDABLE     "res\\ballonbk.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_TOOL_REFRESHE
+    SEPARATOR
+    BUTTON      ID_TOOL_KILL
+    SEPARATOR
+    BUTTON      ID_TOOL_NORMAL
+    BUTTON      ID_TOOL_PERFORMANCE
+    BUTTON      ID_TOOL_NETWORK
+    SEPARATOR
+    BUTTON      ID_TOOL_SERVICE
+    BUTTON      ID_TOOL_BOOT
+    SEPARATOR
+    BUTTON      ID_TOOL_CONSOLE
+    BUTTON      ID_TOOL_REGEDIT
+    BUTTON      ID_TOOL_NOTPAD
+    BUTTON      ID_TOOL_COMPUTEE
+    SEPARATOR
+    BUTTON      ID_TOOL_HOME
+    BUTTON      ID_TOOL_HELP
+    BUTTON      ID_TOOL_ABOUT
+    SEPARATOR
+    SEPARATOR
+    BUTTON      ID_TOOL_HIDDEN
+END
+
+IDR_MENULBAR TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_MENU_REFRESHE
+    BUTTON      ID_MENU_KILL
+    BUTTON      ID_MENU_NORMAL
+    BUTTON      ID_MENU_PERFORMANCE
+    BUTTON      ID_MENU_NETWORK
+    BUTTON      ID_MENU_SERVICE
+    BUTTON      ID_MENU_BOOT
+    BUTTON      ID_MENU_CONSOLE
+    BUTTON      ID_MENU_REGEDIT
+    BUTTON      ID_MENU_COMPUTEE
+    BUTTON      ID_MENU_NOTPAD
+    BUTTON      ID_MENU_HOME
+    BUTTON      ID_MENU_HELP
+    BUTTON      ID_MENU_ABOUT
+END
+
+IDR_POPMENUBAR TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_POPMENU_KILL
+    BUTTON      ID_POPMENU_OPEN
+    BUTTON      ID_POPMENU_COPY
+    BUTTON      ID_POPMENU_HELP
+    BUTTON      ID_POPMENU_DELETE
+    BUTTON      ID_POPMENU_AUTOKILL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINMENU MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "进程与线程管理(&P)"
+    BEGIN
+        MENUITEM "刷新进程列表(&R)        \tF5...", ID_MENU_REFRESHE
+        MENUITEM "关闭自动刷新(&D)\tCtrl+L",    ID_MENU_DISABLEDAUTO
+        MENUITEM "查看进程安全等级(&N)\tCtrl+N", ID_MENU_NORMAL
+        MENUITEM "查看进程系统负载(&O)\tCtrl+M", ID_MENU_PERFORMANCE
+        MENUITEM "查看进程关联端口(&P)\tCtrl+P", ID_MENU_NETWORK
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                    ID_APP_EXIT
+    END
+    POPUP "服务与启动管理(&M)"
+    BEGIN
+        MENUITEM "查看/删除2K/XP/2003服务\tCtrl+S", ID_MENU_SERVICE
+        MENUITEM "查看/删除系统的启动程序        \tCtrl+G", ID_MENU_BOOT
+    END
+    POPUP "窗口(&W)"
+    BEGIN
+        MENUITEM "显示信息栏(&I)",              ID_VIEW_INFO_BAR
+        MENUITEM "显示模块栏(&M)",              ID_VIEW_MODULE_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "显示工具栏(&T)",              ID_VIEW_TOOLBAR
+        MENUITEM "显示状态栏(&S)",              ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "显示在窗口顶层",              ID_MAINMENU_TOP
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "浏览帮助内容(&H)",            ID_MENU_HELP
+        MENUITEM "WWW.ECQ.NAME",                ID_MENU_HOME
+        MENUITEM "关于 ECQ-PS(&A)...",          ID_MENU_ABOUT
+    END
+END
+
+IDR_POPMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "POP"
+    BEGIN
+        MENUITEM "通知进程结束",                ID_POPMENU_AUTOKILL
+        MENUITEM SEPARATOR
+        MENUITEM "打开文件夹...",               ID_POPMENU_OPEN
+        MENUITEM "复制文件到...",               ID_POPMENU_COPY
+        MENUITEM SEPARATOR
+        MENUITEM "强行结束进程",                ID_POPMENU_KILL
+        MENUITEM "强行删除进程",                ID_POPMENU_DELETE
+    END
+END
+
+IDR_TRAYMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "TRAY"
+    BEGIN
+        MENUITEM "查看帮助文件",                ID_MENU_HELP
+        MENUITEM SEPARATOR
+        MENUITEM "关闭ECQ-PS...",               ID_APP_EXIT
+        MENUITEM "关于ECQ-PS...",               ID_MENU_ABOUT
+    END
+END
+
+IDR_POPMENUML MENU DISCARDABLE 
+BEGIN
+    POPUP "PopM"
+    BEGIN
+        MENUITEM "打开文件夹...",               ID_POPML_OPEN
+        MENUITEM "复制文件到...",               ID_POPML_COPY
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 224, 135
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "关于ECQ-ProcessXplorer"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "Button1",IDB_DLGBOUT_WEB,"Button",BS_OWNERDRAW | 
+                    BS_BITMAP | WS_TABSTOP,112,62,74,18
+    CONTROL         "Button2",IDB_DLGBOUT_MAIL,"Button",BS_OWNERDRAW | 
+                    BS_BITMAP | WS_TABSTOP,112,86,73,20
+END
+
+IDD_DLGSERVICE DIALOGEX 0, 0, 323, 209
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "设置2K/XP/2003服务"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "关闭",IDCANCEL,266,188,50,14
+    CONTROL         "List1",IDC_LISTSERVICE,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,7,7,309,172
+    PUSHBUTTON      "刷新",IDC_SERVICE_RERFRSH,7,188,50,14
+    PUSHBUTTON      "删除",IDC_SERVICE_DELETE,59,188,50,14,0,0,
+                    HIDC_SERVICE_DELETE
+    PUSHBUTTON      "查看驱动",IDC_SERVICE_DRIVER,111,188,50,14,0,0,
+                    HIDC_SERVICE_DRIVER
+    CONTROL         "显示所有服务",IDC_SERVICE_ALL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,172,192,64,10
+END
+
+IDD_DLGREGBOOT DIALOG DISCARDABLE  0, 0, 264, 187
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "设置系统启动项"
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "关闭",IDCANCEL,207,166,50,14
+    CONTROL         "List1",IDC_REGBOOT_LIST,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,7,7,250,154
+    PUSHBUTTON      "删除",IDC_REGBOOT_DELETE,7,166,50,14
+END
+
+IDD_DLGWARNING DIALOG DISCARDABLE  0, 0, 193, 85
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "确定",IDOK,91,71,44,14,BS_FLAT | NOT WS_TABSTOP
+    DEFPUSHBUTTON   "取消",IDCANCEL,147,71,44,14,BS_FLAT
+    LTEXT           "Static",IDC_DLGWARNING_INFO,62,32,124,28
+END
+
+IDD_DLGMODULELK DIALOG DISCARDABLE  0, 0, 217, 143
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "由以下进程锁定..."
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "关闭",IDCANCEL,176,122,34,14
+    PUSHBUTTON      "强行删除",IDC_DLGMODULE_DELETE,7,122,50,14
+    CONTROL         "List1",IDC_MODULE_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SORTASCENDING | WS_BORDER | 
+                    WS_TABSTOP,7,7,203,111
+    LTEXT           "Static",IDC_DLGMODULE_NAME,94,125,69,11
+    LTEXT           "当前:",IDC_STATIC,70,125,21,8
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 5,2,0,1
+ PRODUCTVERSION 5,2,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "Http://www.ecq.name\0"
+            VALUE "CompanyName", "ECQ Corporation\0"
+            VALUE "FileDescription", "ECQPS By Chenxiaoliang\0"
+            VALUE "FileVersion", "5, 2, 0, 1\0"
+            VALUE "InternalName", "ECQPS\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2004\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "ECQ-PS.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "超级进程王\0"
+            VALUE "ProductVersion", "5, 2, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 217
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 134
+    END
+
+    IDD_DLGSERVICE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 316
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 202
+    END
+
+    IDD_DLGREGBOOT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 257
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 180
+    END
+
+    IDD_DLGWARNING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 186
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 78
+    END
+
+    IDD_DLGMODULELK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 136
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS DISCARDABLE 
+BEGIN
+    "G",            ID_TOOL_BOOT,           VIRTKEY, CONTROL, NOINVERT
+    "M",            ID_TOOL_PERFORMANCE,    VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_TOOL_NORMAL,         VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_TOOL_NETWORK,        VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_TOOL_SERVICE,        VIRTKEY, CONTROL, NOINVERT
+    VK_F5,          ID_TOOL_REFRESHE,       VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "ECQ-ProcessXplorer -WWW.ECQ.NAME"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Ecq-ProcessXplorer"
+    AFX_IDS_IDLEMESSAGE     " 按Ctrl + Alt 激活ECQ-PS窗口"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "扩展名"
+    ID_INDICATOR_CAPS       "大写"
+    ID_INDICATOR_NUM        "数字"
+    ID_INDICATOR_SCRL       "滚动"
+    ID_INDICATOR_OVR        "改写"
+    ID_INDICATOR_REC        "记录"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "显示程序信息，版本号和版权\n关于"
+    ID_APP_EXIT             "退出应用程序；提示保存文档\n退出"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PROCESSNAME         "映像名称"
+    IDS_PROCESSID           "PID"
+    IDS_PROCESSWARN         "类型"
+    IDS_PROCESSPRORITY      "优先权"
+    IDS_PROCESSTHREAD       "线程数"
+    IDS_PROCESSCRTIME       "启动时间"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PROCESSPATH         "执行路径"
+    IDS_PROCESSINFO         "备注信息"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_MODULENAME          "模块名称"
+    IDS_MODULEVER           "版本"
+    IDS_MODULEVENDOR        "厂商"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回前一个窗格\n前一窗格"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "将活动的窗口分隔成窗格\n分隔"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "显示或隐藏工具栏\n显隐工具栏"
+    ID_VIEW_STATUS_BAR      "显示或隐藏状态栏\n显隐状态栏"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "改变窗口大小"
+    AFX_IDS_SCMOVE          "改变窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小成图标"
+    AFX_IDS_SCMAXIMIZE      "把窗口放大到最大尺寸"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到先前的文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动的窗口并提示保存所有文档"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "把窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务表"
+    ID_INDICATOR_UPTIME     " 总进程数 %d "
+    ID_INDICATOR_NORMAL     " 可疑进程数 %d "
+    IDS_ROOTKITSYS_NO       "FLAG"
+    IDS_ROOTKITSYS_AD       "偏移"
+    IDS_ROOTKITSYS_SIZE     "映像大小"
+    IDS_ROOTKITSYS_HID      "版本"
+    IDS_ROOTKITSYS_NAME     "加载路径"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_MODULECTIME         "创建时间"
+    IDS_MODULEMTIME         "大小"
+    IDS_MODULEPATH          "文件路径"
+    IDS_PERM_CPU            "CPU%"
+    IDS_PERM_MEM            "内存占用"
+    IDS_PERM_DISK           "内核[用户]时间"
+    IDS_PERM_CACHE          "运行时间"
+    IDS_NETWORK_SRC         "协议"
+    IDS_NETWORK_SP          "端口"
+    IDS_NETWORK_DES         "目标地址:端口"
+    IDS_NETWORK_DP          "状态"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_TOOL_REFRESHE        "按F5刷新正常、性能、网络进程视图 \n刷新"
+    ID_TOOL_NETWORK         "查看进程关联端口，显示进程的连接状态\n查看进程关联端口"
+    ID_TOOL_PERFORMANCE     "查看系统的进程负载，显示进程的资源占用\n查看系统的进程负载"
+    ID_TOOL_SERVICE         "卸载或设置2K/XP/2003的系统服务\n查看/删除系统服务"
+    ID_TOOL_BOOT            "卸载或设置随系统启动项\n查看/删除自启动程序"
+    ID_TOOL_COMPUTEE        "打开计算器\n打开计算器"
+    ID_TOOL_NOTPAD          "打开记事本\n打开记事本"
+    ID_TOOL_HOME            "欢迎访问WWW.ECQ.NAME\n欢迎访问WWW.ECQ.NAME"
+    ID_TOOL_HELP            "显示帮助内容\n显示帮助"
+    ID_TOOL_KILL            "通知进程自动退出，可以回收进程占用的所有资源\n通知进程自动退出"
+    ID_TOOL_REGEDIT         "打开注册表\n打开系统注册表"
+    ID_TOOL_CONSOLE         "打开系统服务控制台\n打开服务控制台"
+    ID_TOOL_NORMAL          "查看进程的安全等级，显示进程的安全状态\n查看进程的安全等级"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\ECQPS.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
